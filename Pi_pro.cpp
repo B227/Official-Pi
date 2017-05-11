@@ -106,30 +106,34 @@ int totSize = sizeof(network.peek(header))+sizeof(dat);
     switch(header.type){
       // Display the incoming millis() values from the sensor nodes
       case 'M': network.read(header,&dat,sizeof(dat));
-//dat=enc_xor(dat.id2,dat);
-    for(int i=0; i<mesh.addrListTop && dat.check==29; i++){
+	cout << "Encrupted data: " << " / Effect: " << dat.Effect << " / Effect Hour: "  << dat.Effect_Hour << " / Voltage: "  << dat.Voltage << " / Ampere: " << dat.Ampere << " / Time Stamp: " << dat.Time_Stamp << " / Package Size: " << totSize << " bits." << endl;
 
-cout << " RF24Network Address: ";
-cout << oct << (mesh.addrList[i].address) << endl;
-}
-if (dat.id2 <= 3){
-sprintf(q,"INSERT INTO SM1(id,effect,effectHour,voltage,ampere,timeStamp,totalStr) VALUES(%d,%d,%d,%d,%d,%d,%d)",dat.id2,dat.Effect,dat.Effect_Hour,dat.Voltage,dat.Ampere,dat.Time_Stamp,totSize);
-    mysql_query(mysql1, q);
-cout << "Package Received and added to Radial 1" << endl;
-cout << "Package received from ID: " << dat.id2 << " / Effect: " << dat.Effect << " / Effect Hour: "  << dat.Effect_Hour << " / Voltage: "  << dat.Voltage << " / Ampere: " << dat.Ampere << " / Time Stamp: " << dat.Time_Stamp << " / Package Size: " << totSize << " bits." << endl;
-}
-if(dat.id2 == 4 || dat.id2 == 5 || dat.id2 == 6){
-sprintf(q,"INSERT INTO SM2(id,effect,effectHour,voltage,ampere,timeStamp,totalStr) VALUES(%d,%d,%d,%d,%d,%d,%d)",dat.id2,dat.Effect,dat.Effect_Hour,dat.Voltage,dat.Ampere,dat.Time_Stamp,totSize);
-    mysql_query(mysql1, q);
-cout << "Package Received and added to Radial 2" << endl;
-cout << "Package received from ID: " << dat.id2 << " / Effect: " << dat.Effect << " / Effect Hour: "  << dat.Effect_Hour << " / Voltage: "  << dat.Voltage << " / Ampere: " << dat.Ampere << " / Time Stamp: " << dat.Time_Stamp << " / Package Size: " << totSize << " bits." << endl;
-}
-if (dat.id2 >= 7){
-sprintf(q,"INSERT INTO SM3(id,effect,effectHour,voltage,ampere,timeStamp,totalStr) VALUES(%d,%d,%d,%d,%d,%d,%d)",dat.id2,dat.Effect,dat.Effect_Hour,dat.Voltage,dat.Ampere,dat.Time_Stamp,totSize);
-    mysql_query(mysql1, q);
-cout << "Package Received and added to Radial 3" << endl;
-cout << "Package received from ID: " << dat.id2 << " / Effect: " << dat.Effect << " / Effect Hour: "  << dat.Effect_Hour << " / Voltage: "  << dat.Voltage << " / Ampere: " << dat.Ampere << " / Time Stamp: " << dat.Time_Stamp << " / Package Size: " << totSize << " bits." << endl;
-}
+	dat=enc_xor(dat.id2,dat);
+	/*
+	for(int i=0; i<mesh.addrListTop && dat.check==29; i++){
+
+	cout << " RF24Network Address: ";
+	cout << oct << (mesh.addrList[i].address) << endl;
+	}*/
+//if (dat.id2 <= 3){
+//sprintf(q,"INSERT INTO SM1(id,effect,effectHour,voltage,ampere,timeStamp,totalStr) VALUES(%d,%d,%d,%d,%d,%d,%d)",dat.id2,dat.Effect,dat.Effect_Hour,dat.Voltage,dat.Ampere,dat.Time_Stamp,totSize);
+//    mysql_query(mysql1, q);
+//cout << "Package Received and added to Radial 1" << endl;
+	cout << "Decrypted data: " << dat.id2 << " / Effect: " << dat.Effect << " / Effect Hour: "  << dat.Effect_Hour << " / Voltage: "  << dat.Voltage << " / Ampere: " << dat.Ampere << " / Time Stamp: " << dat.Time_Stamp << " / Package Size: " << totSize << " bits." << endl;
+	cout << endl;
+//}
+//if(dat.id2 == 4 || dat.id2 == 5 || dat.id2 == 6){
+//sprintf(q,"INSERT INTO SM2(id,effect,effectHour,voltage,ampere,timeStamp,totalStr) VALUES(%d,%d,%d,%d,%d,%d,%d)",dat.id2,dat.Effect,dat.Effect_Hour,dat.Voltage,dat.Ampere,dat.Time_Stamp,totSize);
+//    mysql_query(mysql1, q);
+//cout << "Package Received and added to Radial 2" << endl;
+//cout << "Package received from ID: " << dat.id2 << " / Effect: " << dat.Effect << " / Effect Hour: "  << dat.Effect_Hour << " / Voltage: "  << dat.Voltage << " / Ampere: " << dat.Ampere << " / Time Stamp: " << dat.Time_Stamp << " / Package Size: " << totSize << " bits." << endl;
+//}
+//if (dat.id2 >= 7){
+//sprintf(q,"INSERT INTO SM3(id,effect,effectHour,voltage,ampere,timeStamp,totalStr) VALUES(%d,%d,%d,%d,%d,%d,%d)",dat.id2,dat.Effect,dat.Effect_Hour,dat.Voltage,dat.Ampere,dat.Time_Stamp,totSize);
+//    mysql_query(mysql1, q);
+//cout << "Package Received and added to Radial 3" << endl;
+//cout << "Package received from ID: " << dat.id2 << " / Effect: " << dat.Effect << " / Effect Hour: "  << dat.Effect_Hour << " / Voltage: "  << dat.Voltage << " / Ampere: " << dat.Ampere << " / Time Stamp: " << dat.Time_Stamp << " / Package Size: " << totSize << " bits." << endl;
+//}
 
 
  break;

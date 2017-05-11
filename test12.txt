@@ -1,0 +1,322 @@
+Database connection successful.
+start
+================ SPI Configuration ================
+CSN Pin  	 = CE0 (PI Hardware Driven)
+CE Pin  	 = Custom GPIO22
+Clock Speed	 = 8 Mhz
+================ NRF Configuration ================
+STATUS		 = 0x0e RX_DR=0 TX_DS=0 MAX_RT=0 RX_P_NO=7 TX_FULL=0
+RX_ADDR_P0-1	 = 0xccccccccc3 0xcccccccc3c
+RX_ADDR_P2-5	 = 0x33 0xce 0x3e 0xe3
+TX_ADDR		 = 0xcccccc3ecc
+RX_PW_P0-6	 = 0x20 0x20 0x20 0x20 0x20 0x20
+EN_AA		 = 0x3e
+EN_RXADDR	 = 0x3f
+RF_CH		 = 0x61
+RF_SETUP	 = 0x07
+CONFIG		 = 0x0f
+DYNPD/FEATURE	 = 0x3f 0x04
+Data Rate	 = 1MBPS
+Model		 = nRF24L01+
+CRC Length	 = 16 bits
+PA Power	 = PA_MAX
+Encrupted data:  / Effect: 1247 / Effect Hour: 1545 / Voltage: 3852 / Ampere: 3010 / Time Stamp: 125 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1188 / Effect Hour: 1650 / Voltage: 3959 / Ampere: 3001 / Time Stamp: 6 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1246 / Effect Hour: 1544 / Voltage: 3842 / Ampere: 3009 / Time Stamp: 124 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1189 / Effect Hour: 1651 / Voltage: 3961 / Ampere: 3002 / Time Stamp: 7 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1246 / Effect Hour: 1544 / Voltage: 3847 / Ampere: 3009 / Time Stamp: 115 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1189 / Effect Hour: 1651 / Voltage: 3964 / Ampere: 3002 / Time Stamp: 8 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1245 / Effect Hour: 1551 / Voltage: 3846 / Ampere: 3009 / Time Stamp: 114 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1190 / Effect Hour: 1652 / Voltage: 3965 / Ampere: 3002 / Time Stamp: 9 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1245 / Effect Hour: 1551 / Voltage: 3845 / Ampere: 3009 / Time Stamp: 113 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1190 / Effect Hour: 1652 / Voltage: 3966 / Ampere: 3002 / Time Stamp: 10 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1245 / Effect Hour: 1551 / Voltage: 3845 / Ampere: 3008 / Time Stamp: 112 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1190 / Effect Hour: 1652 / Voltage: 3966 / Ampere: 3003 / Time Stamp: 11 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1244 / Effect Hour: 1549 / Voltage: 3844 / Ampere: 3008 / Time Stamp: 119 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1191 / Effect Hour: 1654 / Voltage: 3967 / Ampere: 3003 / Time Stamp: 12 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1245 / Effect Hour: 1551 / Voltage: 3845 / Ampere: 3008 / Time Stamp: 118 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1190 / Effect Hour: 1652 / Voltage: 3966 / Ampere: 3003 / Time Stamp: 13 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1244 / Effect Hour: 1549 / Voltage: 3845 / Ampere: 3015 / Time Stamp: 117 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1191 / Effect Hour: 1654 / Voltage: 3966 / Ampere: 3004 / Time Stamp: 14 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1244 / Effect Hour: 1549 / Voltage: 3844 / Ampere: 3015 / Time Stamp: 116 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1191 / Effect Hour: 1654 / Voltage: 3967 / Ampere: 3004 / Time Stamp: 15 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1244 / Effect Hour: 1549 / Voltage: 3844 / Ampere: 3015 / Time Stamp: 107 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1191 / Effect Hour: 1654 / Voltage: 3967 / Ampere: 3004 / Time Stamp: 16 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1244 / Effect Hour: 1549 / Voltage: 3844 / Ampere: 3015 / Time Stamp: 106 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1191 / Effect Hour: 1654 / Voltage: 3967 / Ampere: 3004 / Time Stamp: 17 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1235 / Effect Hour: 1548 / Voltage: 4091 / Ampere: 3014 / Time Stamp: 105 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1192 / Effect Hour: 1655 / Voltage: 3968 / Ampere: 3005 / Time Stamp: 18 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1235 / Effect Hour: 1548 / Voltage: 4091 / Ampere: 3014 / Time Stamp: 104 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1192 / Effect Hour: 1655 / Voltage: 3968 / Ampere: 3005 / Time Stamp: 19 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1235 / Effect Hour: 1548 / Voltage: 4091 / Ampere: 3014 / Time Stamp: 111 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1192 / Effect Hour: 1655 / Voltage: 3968 / Ampere: 3005 / Time Stamp: 20 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1235 / Effect Hour: 1548 / Voltage: 4091 / Ampere: 3013 / Time Stamp: 110 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1192 / Effect Hour: 1655 / Voltage: 3968 / Ampere: 3006 / Time Stamp: 21 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1235 / Effect Hour: 1548 / Voltage: 3844 / Ampere: 3013 / Time Stamp: 109 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1192 / Effect Hour: 1655 / Voltage: 3967 / Ampere: 3006 / Time Stamp: 22 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1235 / Effect Hour: 1548 / Voltage: 4091 / Ampere: 3013 / Time Stamp: 108 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1192 / Effect Hour: 1655 / Voltage: 3968 / Ampere: 3006 / Time Stamp: 23 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1235 / Effect Hour: 1548 / Voltage: 4091 / Ampere: 3013 / Time Stamp: 99 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1192 / Effect Hour: 1655 / Voltage: 3968 / Ampere: 3006 / Time Stamp: 24 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1234 / Effect Hour: 1539 / Voltage: 4091 / Ampere: 3012 / Time Stamp: 98 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1193 / Effect Hour: 1656 / Voltage: 3968 / Ampere: 3007 / Time Stamp: 25 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1234 / Effect Hour: 1539 / Voltage: 4091 / Ampere: 3012 / Time Stamp: 97 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1193 / Effect Hour: 1656 / Voltage: 3968 / Ampere: 3007 / Time Stamp: 26 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1234 / Effect Hour: 1539 / Voltage: 4090 / Ampere: 3012 / Time Stamp: 96 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1193 / Effect Hour: 1656 / Voltage: 3969 / Ampere: 3007 / Time Stamp: 27 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1234 / Effect Hour: 1539 / Voltage: 4090 / Ampere: 3003 / Time Stamp: 103 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1193 / Effect Hour: 1656 / Voltage: 3969 / Ampere: 3008 / Time Stamp: 28 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1234 / Effect Hour: 1539 / Voltage: 4090 / Ampere: 3003 / Time Stamp: 102 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1193 / Effect Hour: 1656 / Voltage: 3969 / Ampere: 3008 / Time Stamp: 29 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1234 / Effect Hour: 1539 / Voltage: 4090 / Ampere: 3003 / Time Stamp: 101 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1193 / Effect Hour: 1656 / Voltage: 3969 / Ampere: 3008 / Time Stamp: 30 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1233 / Effect Hour: 1537 / Voltage: 4090 / Ampere: 3002 / Time Stamp: 100 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1194 / Effect Hour: 1658 / Voltage: 3969 / Ampere: 3009 / Time Stamp: 31 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1233 / Effect Hour: 1537 / Voltage: 4089 / Ampere: 3002 / Time Stamp: 91 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1194 / Effect Hour: 1658 / Voltage: 3970 / Ampere: 3009 / Time Stamp: 32 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1233 / Effect Hour: 1537 / Voltage: 4089 / Ampere: 3002 / Time Stamp: 90 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1194 / Effect Hour: 1658 / Voltage: 3970 / Ampere: 3009 / Time Stamp: 33 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1233 / Effect Hour: 1537 / Voltage: 4090 / Ampere: 3002 / Time Stamp: 89 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1194 / Effect Hour: 1658 / Voltage: 3969 / Ampere: 3009 / Time Stamp: 34 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1233 / Effect Hour: 1537 / Voltage: 4090 / Ampere: 3001 / Time Stamp: 88 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1194 / Effect Hour: 1658 / Voltage: 3969 / Ampere: 3010 / Time Stamp: 35 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1233 / Effect Hour: 1537 / Voltage: 4089 / Ampere: 3001 / Time Stamp: 95 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1194 / Effect Hour: 1658 / Voltage: 3970 / Ampere: 3010 / Time Stamp: 36 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1233 / Effect Hour: 1537 / Voltage: 4089 / Ampere: 3001 / Time Stamp: 94 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1194 / Effect Hour: 1658 / Voltage: 3970 / Ampere: 3010 / Time Stamp: 37 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1232 / Effect Hour: 1536 / Voltage: 4089 / Ampere: 3000 / Time Stamp: 93 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1195 / Effect Hour: 1659 / Voltage: 3970 / Ampere: 3011 / Time Stamp: 38 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1232 / Effect Hour: 1536 / Voltage: 4088 / Ampere: 3000 / Time Stamp: 92 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1195 / Effect Hour: 1659 / Voltage: 3971 / Ampere: 3011 / Time Stamp: 39 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1232 / Effect Hour: 1536 / Voltage: 4088 / Ampere: 3000 / Time Stamp: 83 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1195 / Effect Hour: 1659 / Voltage: 3971 / Ampere: 3011 / Time Stamp: 40 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1232 / Effect Hour: 1536 / Voltage: 4088 / Ampere: 3000 / Time Stamp: 82 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1195 / Effect Hour: 1659 / Voltage: 3971 / Ampere: 3011 / Time Stamp: 41 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1239 / Effect Hour: 1542 / Voltage: 4088 / Ampere: 3007 / Time Stamp: 81 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1196 / Effect Hour: 1661 / Voltage: 3971 / Ampere: 3012 / Time Stamp: 42 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1239 / Effect Hour: 1542 / Voltage: 4088 / Ampere: 3007 / Time Stamp: 80 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1196 / Effect Hour: 1661 / Voltage: 3971 / Ampere: 3012 / Time Stamp: 43 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1239 / Effect Hour: 1542 / Voltage: 4088 / Ampere: 3007 / Time Stamp: 87 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1196 / Effect Hour: 1661 / Voltage: 3971 / Ampere: 3012 / Time Stamp: 44 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1239 / Effect Hour: 1542 / Voltage: 4088 / Ampere: 3006 / Time Stamp: 86 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1196 / Effect Hour: 1661 / Voltage: 3971 / Ampere: 3013 / Time Stamp: 45 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1239 / Effect Hour: 1542 / Voltage: 4088 / Ampere: 3006 / Time Stamp: 85 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1196 / Effect Hour: 1661 / Voltage: 3971 / Ampere: 3013 / Time Stamp: 46 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1239 / Effect Hour: 1542 / Voltage: 4088 / Ampere: 3006 / Time Stamp: 84 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1196 / Effect Hour: 1661 / Voltage: 3971 / Ampere: 3013 / Time Stamp: 47 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1239 / Effect Hour: 1542 / Voltage: 4088 / Ampere: 3006 / Time Stamp: 75 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1196 / Effect Hour: 1661 / Voltage: 3971 / Ampere: 3013 / Time Stamp: 48 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1239 / Effect Hour: 1542 / Voltage: 4088 / Ampere: 3005 / Time Stamp: 74 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1196 / Effect Hour: 1661 / Voltage: 3971 / Ampere: 3014 / Time Stamp: 49 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1238 / Effect Hour: 1541 / Voltage: 4095 / Ampere: 3005 / Time Stamp: 73 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1197 / Effect Hour: 1662 / Voltage: 3972 / Ampere: 3014 / Time Stamp: 50 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1238 / Effect Hour: 1541 / Voltage: 4095 / Ampere: 3005 / Time Stamp: 72 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1197 / Effect Hour: 1662 / Voltage: 3972 / Ampere: 3014 / Time Stamp: 51 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1238 / Effect Hour: 1541 / Voltage: 4095 / Ampere: 3004 / Time Stamp: 79 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1197 / Effect Hour: 1662 / Voltage: 3972 / Ampere: 3015 / Time Stamp: 52 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1238 / Effect Hour: 1541 / Voltage: 4095 / Ampere: 3004 / Time Stamp: 78 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1197 / Effect Hour: 1662 / Voltage: 3972 / Ampere: 3015 / Time Stamp: 53 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1238 / Effect Hour: 1541 / Voltage: 4095 / Ampere: 3004 / Time Stamp: 77 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1197 / Effect Hour: 1662 / Voltage: 3972 / Ampere: 3015 / Time Stamp: 54 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1238 / Effect Hour: 1541 / Voltage: 4094 / Ampere: 3004 / Time Stamp: 76 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1197 / Effect Hour: 1662 / Voltage: 3973 / Ampere: 3015 / Time Stamp: 55 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1237 / Effect Hour: 1540 / Voltage: 4094 / Ampere: 2995 / Time Stamp: 67 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1198 / Effect Hour: 1663 / Voltage: 3973 / Ampere: 3016 / Time Stamp: 56 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1237 / Effect Hour: 1540 / Voltage: 4094 / Ampere: 2995 / Time Stamp: 66 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1198 / Effect Hour: 1663 / Voltage: 3973 / Ampere: 3016 / Time Stamp: 57 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1237 / Effect Hour: 1540 / Voltage: 4094 / Ampere: 2995 / Time Stamp: 65 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1198 / Effect Hour: 1663 / Voltage: 3973 / Ampere: 3016 / Time Stamp: 58 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1237 / Effect Hour: 1540 / Voltage: 4094 / Ampere: 2994 / Time Stamp: 64 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1198 / Effect Hour: 1663 / Voltage: 3973 / Ampere: 3017 / Time Stamp: 59 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1237 / Effect Hour: 1540 / Voltage: 4095 / Ampere: 2994 / Time Stamp: 71 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1198 / Effect Hour: 1663 / Voltage: 3972 / Ampere: 3017 / Time Stamp: 60 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1237 / Effect Hour: 1540 / Voltage: 4094 / Ampere: 2994 / Time Stamp: 70 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1198 / Effect Hour: 1663 / Voltage: 3973 / Ampere: 3017 / Time Stamp: 61 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1236 / Effect Hour: 1786 / Voltage: 4094 / Ampere: 2993 / Time Stamp: 69 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1199 / Effect Hour: 1665 / Voltage: 3973 / Ampere: 3018 / Time Stamp: 62 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1236 / Effect Hour: 1786 / Voltage: 4094 / Ampere: 2993 / Time Stamp: 68 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1199 / Effect Hour: 1665 / Voltage: 3973 / Ampere: 3018 / Time Stamp: 63 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1236 / Effect Hour: 1786 / Voltage: 4093 / Ampere: 2993 / Time Stamp: 59 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1199 / Effect Hour: 1665 / Voltage: 3974 / Ampere: 3018 / Time Stamp: 64 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1236 / Effect Hour: 1786 / Voltage: 4093 / Ampere: 2993 / Time Stamp: 58 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1199 / Effect Hour: 1665 / Voltage: 3974 / Ampere: 3018 / Time Stamp: 65 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1236 / Effect Hour: 1786 / Voltage: 4093 / Ampere: 2992 / Time Stamp: 57 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1199 / Effect Hour: 1665 / Voltage: 3974 / Ampere: 3019 / Time Stamp: 66 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1236 / Effect Hour: 1786 / Voltage: 4093 / Ampere: 2992 / Time Stamp: 56 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1199 / Effect Hour: 1665 / Voltage: 3974 / Ampere: 3019 / Time Stamp: 67 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1236 / Effect Hour: 1786 / Voltage: 4093 / Ampere: 2992 / Time Stamp: 63 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1199 / Effect Hour: 1665 / Voltage: 3974 / Ampere: 3019 / Time Stamp: 68 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4093 / Ampere: 2999 / Time Stamp: 62 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3974 / Ampere: 3020 / Time Stamp: 69 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4093 / Ampere: 2999 / Time Stamp: 61 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3974 / Ampere: 3020 / Time Stamp: 70 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1236 / Effect Hour: 1786 / Voltage: 4094 / Ampere: 2999 / Time Stamp: 60 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1199 / Effect Hour: 1665 / Voltage: 3973 / Ampere: 3020 / Time Stamp: 71 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4093 / Ampere: 2999 / Time Stamp: 51 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3974 / Ampere: 3020 / Time Stamp: 72 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4094 / Ampere: 2998 / Time Stamp: 50 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3973 / Ampere: 3021 / Time Stamp: 73 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4093 / Ampere: 2998 / Time Stamp: 49 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3974 / Ampere: 3021 / Time Stamp: 74 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4093 / Ampere: 2998 / Time Stamp: 48 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3974 / Ampere: 3021 / Time Stamp: 75 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4093 / Ampere: 2997 / Time Stamp: 55 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3974 / Ampere: 3022 / Time Stamp: 76 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4094 / Ampere: 2997 / Time Stamp: 54 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3973 / Ampere: 3022 / Time Stamp: 77 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4093 / Ampere: 2997 / Time Stamp: 53 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3974 / Ampere: 3022 / Time Stamp: 78 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4093 / Ampere: 2997 / Time Stamp: 52 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3974 / Ampere: 3022 / Time Stamp: 79 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1226 / Effect Hour: 1791 / Voltage: 4093 / Ampere: 2996 / Time Stamp: 43 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1201 / Effect Hour: 1668 / Voltage: 3974 / Ampere: 3023 / Time Stamp: 80 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1226 / Effect Hour: 1791 / Voltage: 4094 / Ampere: 2996 / Time Stamp: 42 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1201 / Effect Hour: 1668 / Voltage: 3973 / Ampere: 3023 / Time Stamp: 81 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1227 / Effect Hour: 1785 / Voltage: 4095 / Ampere: 2996 / Time Stamp: 41 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1200 / Effect Hour: 1666 / Voltage: 3972 / Ampere: 3023 / Time Stamp: 82 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1226 / Effect Hour: 1791 / Voltage: 4093 / Ampere: 2987 / Time Stamp: 40 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1201 / Effect Hour: 1668 / Voltage: 3974 / Ampere: 3024 / Time Stamp: 83 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1226 / Effect Hour: 1791 / Voltage: 4093 / Ampere: 2987 / Time Stamp: 47 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1201 / Effect Hour: 1668 / Voltage: 3974 / Ampere: 3024 / Time Stamp: 84 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1226 / Effect Hour: 1791 / Voltage: 4093 / Ampere: 2987 / Time Stamp: 46 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1201 / Effect Hour: 1668 / Voltage: 3974 / Ampere: 3024 / Time Stamp: 85 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4093 / Ampere: 2986 / Time Stamp: 45 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3974 / Ampere: 3025 / Time Stamp: 86 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4093 / Ampere: 2986 / Time Stamp: 44 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3974 / Ampere: 3025 / Time Stamp: 87 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4093 / Ampere: 2986 / Time Stamp: 35 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3974 / Ampere: 3025 / Time Stamp: 88 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4093 / Ampere: 2986 / Time Stamp: 34 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3974 / Ampere: 3025 / Time Stamp: 89 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4093 / Ampere: 2985 / Time Stamp: 33 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3974 / Ampere: 3026 / Time Stamp: 90 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4093 / Ampere: 2985 / Time Stamp: 32 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3974 / Ampere: 3026 / Time Stamp: 91 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4092 / Ampere: 2985 / Time Stamp: 39 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3975 / Ampere: 3026 / Time Stamp: 92 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4092 / Ampere: 2984 / Time Stamp: 38 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3975 / Ampere: 3027 / Time Stamp: 93 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4093 / Ampere: 2984 / Time Stamp: 37 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3974 / Ampere: 3027 / Time Stamp: 94 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1225 / Effect Hour: 1790 / Voltage: 4093 / Ampere: 2984 / Time Stamp: 36 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1202 / Effect Hour: 1669 / Voltage: 3974 / Ampere: 3027 / Time Stamp: 95 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4092 / Ampere: 2984 / Time Stamp: 27 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3975 / Ampere: 3027 / Time Stamp: 96 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4092 / Ampere: 2991 / Time Stamp: 26 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3975 / Ampere: 3028 / Time Stamp: 97 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4092 / Ampere: 2991 / Time Stamp: 25 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3975 / Ampere: 3028 / Time Stamp: 98 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4092 / Ampere: 2991 / Time Stamp: 24 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3975 / Ampere: 3028 / Time Stamp: 99 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4093 / Ampere: 2990 / Time Stamp: 31 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3974 / Ampere: 3029 / Time Stamp: 100 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4093 / Ampere: 2990 / Time Stamp: 30 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3974 / Ampere: 3029 / Time Stamp: 101 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4093 / Ampere: 2990 / Time Stamp: 29 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3974 / Ampere: 3029 / Time Stamp: 102 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1224 / Effect Hour: 1789 / Voltage: 4093 / Ampere: 2990 / Time Stamp: 28 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1203 / Effect Hour: 1670 / Voltage: 3974 / Ampere: 3029 / Time Stamp: 103 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1231 / Effect Hour: 1779 / Voltage: 4093 / Ampere: 2989 / Time Stamp: 19 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1204 / Effect Hour: 1672 / Voltage: 3974 / Ampere: 3030 / Time Stamp: 104 / Package Size: 14 bits.
+
+Encrupted data:  / Effect: 1231 / Effect Hour: 1779 / Voltage: 4092 / Ampere: 2989 / Time Stamp: 18 / Package Size: 14 bits.
+Decrypted data:  / Effect: 1204 / Effect Hour: 1672 / Voltage: 3975 / Ampere: 3030 / Time Stamp: 105 / Package Size: 14 bits.
+
